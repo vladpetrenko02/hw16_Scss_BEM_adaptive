@@ -1,2 +1,0 @@
-# hw16_Scss_BEM_adaptive
-HillelIT school hw16_Scss_BEM_adaptive
