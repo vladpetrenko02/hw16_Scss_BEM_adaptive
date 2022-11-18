@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    &--animation_options {
+        transition: all .3s;
+    }
+
+    &--style {
+        background: $bgcolor-card;
+        border-radius: 30px;
+    }
+
+    &--marpadding {
+        padding: 35px 30px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0 10px $color-shadow;
+    }
+
+    &__label {
+        align-self: flex-start;
+    }
+
+    &__name-wrapper {
+        padding: 20px 0 10px;
+        border-bottom: 1px solid $color-border;
+    }
+
+    &__bottom-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+    }
+}

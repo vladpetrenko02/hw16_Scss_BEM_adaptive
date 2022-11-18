@@ -1,0 +1,26 @@
+https://gulpjs.com/docs/en/getting-started/quick-start
+
+-) устанавливаем Node.js https://nodejs.org/uk/
+-) проверяем версию ноды              node --version
+-) проверяем версию  npm              npm --version
+-) устанавливаем глобально            npm install --global gulp-cli
+-) в папке с файлом     gulpfile.js    запускаем команду    npm i
+-) после установки всех модулей, запускаем команду    gulp
+-) наслаждаемся версткой
+-) чтобы остановить компиляцию, нажмите в консоли  ctrl + c
+
+
+
+
+
+Это ненадо
+-) Устанавливаем в корневом каталоге gulp командой - npm i gulp
+-) Инициализируем проект командой - npm init , и совсем соглашаемся
+-) npm install sass gulp-sass --save-dev
+-) Запускаем команду - npm i gulp-sass gulp-sourcemaps gulp-watch --SD
+    npm i - устанавливаем модули 
+    gulp-sass - https://www.npmjs.com/package/gulp-sass - компилит файлы scss -> css
+    gulp-sourcemaps - https://www.npmjs.com/package/gulp-sourcemaps - чтобы легко ориентироваться в коде
+    gulp-watch - https://www.npmjs.com/package/gulp-watch - следит за изменением файлов
+    --SD
+-) npm i gulp-imagemin@7.1.0 --SD  https://www.npmjs.com/package/gulp-imagemin/v/7.1.0

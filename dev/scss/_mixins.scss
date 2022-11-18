@@ -1,0 +1,8 @@
+@mixin text_style($family, $style, $weight, $size, $space, $clor) {
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    letter-spacing: $space;
+    color: $clor;
+}

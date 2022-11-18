@@ -1,0 +1,54 @@
+.price {
+    @include text_style(
+        'Open Sans',
+        normal,
+        700,
+        16px,
+        0.36px,
+        #274C5B
+    );
+
+    @media(min-width:576px) {
+        font-size: 12px;
+    }
+    @media(min-width:768px) {
+        font-size: 15px;
+    }
+    @media(min-width:1200px) {
+        font-size: 18px;
+    }
+
+    &--purpose {
+        font-weight: 400;
+        font-size: 15px;
+        color: #B8B8B8;
+        text-decoration: line-through;
+
+        @media(min-width:576px) {
+            font-size: 11px;
+        }
+        @media(min-width:768px) {
+            font-size: 14px;
+        }
+        @media(min-width:1200px) {
+            font-size: 17px;
+        }
+    }
+
+    &--marpadding {
+        margin-right: 8px;
+
+        @media(min-width:576px) {
+            margin-right: 3px;
+        }
+        @media(min-width:768px) {
+            margin-right: 6px;
+        }
+        @media(min-width:992px) {
+            margin-right: 4px;
+        }
+        @media(min-width:1200px) {
+            margin-right: 10px;
+        }
+    }
+}

@@ -1,0 +1,78 @@
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.card-wrapper {
+
+    @media (min-width: 576px) {
+        width: calc(100%/2);
+    }
+    @media (min-width: 992px) {
+        width: calc(100%/3);
+    }
+
+    &--marpadding {
+        padding: 10px 10px;
+    }
+}
+
+.cards-block {
+    list-style: none;
+
+    @media (min-width: 576px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &--marpaddding {
+        margin: -10px;
+        padding: 0;
+    }
+}
+
+.name-wrapper {
+    @include text_style(
+        'Roboto', 
+        normal, 
+        400, 
+        22px, 
+        0.36px, 
+        #274C5B
+    );
+
+    @media (min-width: 576px) {
+        font-size: 17px;
+    }
+    @media (min-width: 768px) {
+        font-size: 20px;
+    }
+    @media (min-width: 1200px) {
+        font-size: 22px;
+    }
+
+}
+
+.stars {
+    width: 75px;
+
+    @media (min-width: 576px) {
+        width: 50px;
+    }
+    @media (min-width: 768px) {
+        width: 70px;
+    }
+    @media (min-width: 992px) {
+        width: 60px;
+    }
+    @media (min-width: 1200px) {
+        width: 80px;
+    }
+}

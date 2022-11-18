@@ -1,0 +1,44 @@
+.our-products {
+    padding: 50px 0;
+
+    &__sub-title {
+        text-align: center;
+        transition: all .3s linear;
+    }
+
+    &__title {
+        text-align: center;
+        transition: all .3s linear;
+        margin-bottom: 50px;
+    }
+}
+
+.sub-title {
+    @include text_style(
+        'Yellowtail', 
+        normal, 
+        400,
+        36px,
+        0.36px,
+        $color-title);
+
+    &:hover {
+        color: $color-title-hover;
+        cursor: pointer;
+    }
+}
+
+.title {
+    @include text_style(
+        'Roboto', 
+        normal, 
+        700, 
+        45px, 
+        0.36px, 
+        $color-subtitle);
+
+    &:hover {
+        color: $color-subtitle-hover;
+        cursor: pointer;
+    }
+}

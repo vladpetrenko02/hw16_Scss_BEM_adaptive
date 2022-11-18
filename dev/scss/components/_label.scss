@@ -1,0 +1,39 @@
+.label {
+    text-decoration: none;
+    text-align: center;
+    @include text_style(
+        'Open Sans', 
+        bold, 
+        700, 
+        15px, 
+        0.36px, 
+        $white);
+
+    @media (min-width: 576px) {
+        font-size: 11px;
+    }
+    @media (min-width: 768px) {
+        font-size: 13px;
+    }
+    @media (min-width: 1200px) {
+        font-size: 15px;
+    }
+    
+    &--animation_options {
+        transition: all .3s;
+    }
+    
+    &--marpadding {
+        padding: 10px;
+    }
+
+    &--style {
+        background: $bgcolor-label;
+        border-radius: 8px;
+    }
+
+    &:hover {
+        background: $white;
+        color: #274C5B;
+    }
+}
