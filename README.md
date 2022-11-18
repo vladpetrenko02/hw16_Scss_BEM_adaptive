@@ -1,2 +1,2 @@
-# hw15_Scss_BEM
-hw15 Hillel IT school
+# hw16_Scss_BEM
+hw16 Hillel IT school
